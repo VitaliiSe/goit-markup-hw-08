@@ -3,9 +3,21 @@
     padding-bottom: 60px;
     background-color: $background-color;
   }
-  // .section-footer__box{
-  //   display: flex;
-  // }
+  .section-footer__box{
+    
+    @media screen and (min-width:480px){
+  }
+
+  @media screen and (min-width:768px){
+
+  }
+
+  @media screen and (min-width:1200px){
+    display: flex;
+  }
+
+
+  }
   
 
   /*____________________________*/

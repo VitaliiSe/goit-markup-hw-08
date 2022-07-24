@@ -100,32 +100,32 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .conteiner-nav {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .conteiner-nav {
-    display: flex;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .conteiner-nav {
-    display: flex;
-    align-items: center;
-  }
-}
-
 /* Modifiers logo*/
 .logo--accent:hover, .logo--accent:focus {
   color: #2196F3;
 }
 
 .site-nav {
-  display: flex;
   margin-left: 93px;
+}
+@media screen and (min-width: 480px) {
+  .site-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .site-nav {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .site-nav_link {
@@ -244,6 +244,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-footer__box {
+    display: flex;
+  }
 }
 
 /*____________________________*/
@@ -437,8 +443,6 @@ body {
 }
 
 .conteiner-fon {
-  max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 1px solid black; */
@@ -446,6 +450,24 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 480px) {
+  .conteiner-fon {
+    width: 480px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner-fon {
+    width: 768px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner-fon {
+    width: 1600px;
+    height: 600px;
+  }
 }
 
 .section-hero {
@@ -455,7 +477,6 @@ body {
 }
 
 .section-hero__caption {
-  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -467,6 +488,21 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+@media screen and (min-width: 480px) {
+  .section-hero__caption {
+    width: 360px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-hero__caption {
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-hero__caption {
+    width: 696px;
+  }
 }
 
 .section-hero__button {
