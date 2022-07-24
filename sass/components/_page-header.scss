@@ -1,15 +1,47 @@
 .page-header{
     border-bottom: 1px solid $border-header;
   }
-  .page-header_conteiner{
-    display: flex;
-    align-items: center;
+
+.page-header_conteiner{
+    @media screen and (min-width:480px){
+      
     }
 
+  @media screen and (min-width:768px){
+     
+      display: flex;
+      align-items: center;
+  }
+
+  @media screen and (min-width:1200px){
+     
+      display: flex;
+      align-items: center;
+  }
+
+    // display: flex;
+    // align-items: center;
+}
+
 .conteiner-nav{
-  display: flex;
-  align-items: center;
-      }
+  // display: flex;
+  // align-items: center;
+
+  @media screen and (min-width:480px){
+    display: none;
+  }
+
+  @media screen and (min-width:768px){
+    display: flex;
+    align-items: center;
+}
+
+  @media screen and (min-width:1200px){
+    display: flex;
+    align-items: center;
+}
+
+}
 
 /* Modifiers logo*/ 
 .logo--accent{
