@@ -1,0 +1,67 @@
+.conteiner-fon{
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 1px solid black; */
+  
+   background-image: linear-gradient(
+    to right,
+    rgba(85, 62, 62, 0.5),
+    rgba(49, 40, 49, 0.5),
+    rgba(55, 61, 55, 0.5)),
+    url(../img/Fon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .section-hero{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px; 
+  }
+  .section-hero__caption{
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color:$white-color;
+  }
+  
+  .section-hero__button{
+  padding: 10px 32px;
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items:center;
+  text-align:center;
+  letter-spacing: 0.06em;
+  color:$button-color;
+  
+  background-color:$accent-color;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  border:transparent;
+ 
+  &:hover,
+  &:focus{
+  color:$logo-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+}
+  
+  
+  

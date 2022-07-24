@@ -1,0 +1,20 @@
+.page-header{
+    border-bottom: 1px solid $border-header;
+  }
+  .page-header_conteiner{
+    display: flex;
+    align-items: center;
+    }
+
+.conteiner-nav{
+  display: flex;
+  align-items: center;
+      }
+
+/* Modifiers logo*/ 
+.logo--accent{
+  &:hover,
+  &:focus{
+  color:$accent-color;
+}
+}

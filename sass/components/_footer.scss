@@ -1,0 +1,234 @@
+.section-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $background-color;
+  }
+  .section-footer__box{
+    display: flex;
+  }
+  
+
+  /*____________________________*/
+  .footer-aside{
+    display: block;
+  }
+
+  .box{
+    margin-bottom: 20px;
+  }
+
+  /* Modifiers logo*/ 
+  .web--color {
+    color:$accent-color;
+    
+  }
+  .logo--color{
+    color: $button-color;
+  }
+  
+  
+  
+ /*-------------------------------*/ 
+
+  .footer-networks{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 70px;
+  }
+  
+  .footer-networks__holder{
+    display: block;
+  
+  }
+  .footer-networks__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: $white-color;
+  
+    margin-bottom: 20px;
+    text-align:left;
+    
+  }
+
+  /*section social networks*/
+  
+  .box{
+    display:flex;
+    width: 206px;
+    height: 44px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+  
+  .box__button{
+    border: none;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    background-color:$white-color;
+    border-radius: 120px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+      background-color: $accent-color;
+    }
+  }
+
+    .box__button--color{
+      background-color:$background-social;
+    }
+
+    
+
+  .box__icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill:$box-button;
+  
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover,
+  &:focus{
+  fill: $white-color;
+  }
+
+  .box__button:hover &,
+  .box__button:focus & {
+  fill: $white-color;
+  }
+}
+
+.box__icon--color{
+  fill:$white-color;
+}
+  
+  
+/*subscribe*/
+
+  .footer-subscribe{
+    display:block;
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    padding: 0;
+  /* outline: 1px solid black; */
+  }
+
+  .footer-subscribe__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: $white-color;
+  
+  }
+  
+  .footer-subscribe__email{
+    display: inline-block;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: $background-email;
+    margin-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    color: $contact-color;
+  }
+  
+  .footer-subscribe__button{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding:10px 29px;
+    background:$accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    }
+  
+  .footer-subscribe__text{
+  display:block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: $white-color;
+  margin-right: 10px;
+  
+  }
+  
+  .footer-subscribe__icon{
+    display: block;
+    width: 24px;
+    height: 24px; 
+    object-fit: cover;
+    background-size: cover;
+    margin: 0;
+    bottom: 0;
+    /* outline: 1px solid black; */
+  }
+  
+  
+  .address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $button-color;
+    
+    margin-bottom: 9px;
+    
+    }
+  .footer-items{
+    @extend %list;
+  }
+
+  .footer-items__contact{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: $contact-color;
+  text-decoration: none;
+  margin-bottom: 9px;
+  
+  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus{
+  color: $accent-color;
+  }
+
+  }
+  
+ 
+  
+ 
+  
