@@ -1,6 +1,6 @@
 .section-clients{
-    padding-top: 94px;
-    padding-bottom: 113px;
+  padding-top: 94px;
+  padding-bottom: 113px;
   }
 
   .section-clients__caption{
@@ -17,8 +17,6 @@
   
   .section-clients__subtitle{
     display:flex;
-    width: 170px;
-    height: 92px;
     list-style: none;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -31,29 +29,42 @@
     &:hover,
     &:focus{
       border-color: $accent-color;
-    }
 
+    }
+    @media screen and (min-width:480px){
+      width:210px;
+      height: 92px;
+    }
+  
+  @media screen and (min-width:768px){
+    width:226px;
+    height: 92px;
+      }
+  
+  @media screen and (min-width:1200px){
+    width: 170px;
+    height: 92px;
+  }
 
   }
  
   
   .section-clients__list{
-    // display: flex;
-    gap: 30px;
+    // // display: flex;
+    // gap: 30px;
     @extend %list;
 
     @media screen and (min-width:480px){
-      width:480px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
     }
   
   @media screen and (min-width:768px){
-      width:768px;
       display: flex;
-      gap: 30px;
-  }
+      }
   
   @media screen and (min-width:1200px){
-      width:1200px;
       display: flex;
       gap: 30px;
   }
