@@ -802,41 +802,43 @@ body {
 .section-clients__subtitle:hover, .section-clients__subtitle:focus {
   border-color: #2196F3;
 }
-@media screen and (min-width: 480px) {
-  .section-clients__subtitle {
-    width: 210px;
-    height: 92px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .section-clients__subtitle {
-    width: 226px;
-    height: 92px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section-clients__subtitle {
-    width: 170px;
-    height: 92px;
-  }
-}
 
-.section-clients__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+@media screen and (min-width: 480px) {
+  .section-clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .section-clients__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    margin: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section-clients__list {
     display: flex;
-    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .section-clients__item {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-clients__item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-clients__item {
+    flex-basis: calc((100% - 180px) / 6);
+    margin: 15px;
   }
 }
 
