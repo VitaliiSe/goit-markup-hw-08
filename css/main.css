@@ -803,12 +803,10 @@ body {
   border-color: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
-  .section-clients__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
+.section-clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 @media screen and (min-width: 768px) {
   .section-clients__list {
@@ -825,16 +823,9 @@ body {
   }
 }
 
-@media screen and (max-width: 479px) {
-  .section-clients__item {
-    margin: 15px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .section-clients__item {
-    flex-basis: calc((100% - 60px) / 2);
-    margin: 15px;
-  }
+.section-clients__item {
+  flex-basis: calc((100% - 60px) / 2);
+  margin: 15px;
 }
 @media screen and (min-width: 768px) {
   .section-clients__item {
