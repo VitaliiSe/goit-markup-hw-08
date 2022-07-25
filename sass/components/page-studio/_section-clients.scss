@@ -52,8 +52,15 @@
     flex-wrap: wrap;
     margin:-15px;
   }
-
+  }
+  
 .section-clients__item{
+
+  &:not(:last-child){}
+  @media screen and (max-width:479px){
+    margin-bottom: 15px;
+  }
+}
 
   @media screen and (min-width:480px){
     flex-basis:calc((100% - 4 * 15px) / 2);

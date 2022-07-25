@@ -820,9 +820,16 @@ body {
 @media screen and (min-width: 1200px) {
   .section-clients__list {
     display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
   }
 }
 
+@media screen and (max-width: 479px) {
+  .section-clients__item {
+    margin: 15px;
+  }
+}
 @media screen and (min-width: 480px) {
   .section-clients__item {
     flex-basis: calc((100% - 60px) / 2);
