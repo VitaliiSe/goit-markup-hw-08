@@ -45,13 +45,13 @@
   .footer-networks{
     display: flex;
     margin-top: 12px;
-    margin-left: 70px;
+    // margin-left: 70px;
   }
   
   .footer-networks__holder{
     display: block;
-  
   }
+
   .footer-networks__title{
     font-style: normal;
     font-weight: 700;
@@ -130,7 +130,7 @@
 
   .footer-subscribe{
     display:block;
-    width: 570px;
+    // width: 570px;
     height: 86px;
     margin-left: 93px;
     margin-top: 12px;
@@ -152,8 +152,8 @@
   }
   
   .footer-subscribe__email{
-    display: inline-block;
-    width: 358px;
+    display: block;
+   
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));

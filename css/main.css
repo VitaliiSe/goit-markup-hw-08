@@ -107,11 +107,7 @@ body {
 
 .site-nav {
   margin-left: 93px;
-}
-@media screen and (min-width: 480px) {
-  .site-nav {
-    display: none;
-  }
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .site-nav {
@@ -166,17 +162,10 @@ body {
 
 .list-contacts {
   margin-left: auto;
-}
-@media screen and (min-width: 480px) {
-  .list-contacts {
-    display: none;
-    width: 480px;
-  }
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .list-contacts {
-    width: 768px;
-    width: 768px;
     display: flex;
     flex-flow: column;
     gap: 10px;
@@ -184,10 +173,10 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .list-contacts {
-    width: 1200px;
     display: flex;
     flex-direction: revert;
     align-items: center;
+    margin-left: auto;
   }
 }
 
@@ -274,7 +263,6 @@ body {
 .footer-networks {
   display: flex;
   margin-top: 12px;
-  margin-left: 70px;
 }
 
 .footer-networks__holder {
@@ -344,7 +332,6 @@ body {
 /*subscribe*/
 .footer-subscribe {
   display: block;
-  width: 570px;
   height: 86px;
   margin-left: 93px;
   margin-top: 12px;
@@ -365,8 +352,7 @@ body {
 }
 
 .footer-subscribe__email {
-  display: inline-block;
-  width: 358px;
+  display: block;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -692,6 +678,10 @@ body {
   display: flex;
 }
 
+.section-work__icon {
+  width: 100%;
+}
+
 .section-work__tip {
   display: flex;
   width: 100%;
@@ -775,24 +765,7 @@ body {
 
 .section-team__picture {
   margin-bottom: 30px;
-}
-@media screen and (min-width: 480px) {
-  .section-team__picture {
-    width: 450px;
-    height: 460px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .section-team__picture {
-    width: 354px;
-    height: 374px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section-team__picture {
-    width: 270px;
-    height: 260px;
-  }
+  width: 100%;
 }
 
 .section-team__name {
