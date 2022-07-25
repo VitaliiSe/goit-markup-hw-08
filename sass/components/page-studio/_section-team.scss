@@ -29,7 +29,7 @@
 
 @media screen and (min-width:1200px){
     display: flex;
-    justify-content: space-between;
+    flex-wrap: nowrap;
 }
   }
   
@@ -41,8 +41,7 @@
   background: $white-color;
 
   @media screen and (min-width:480px){
-    width: 450px;
-    height: 622px;
+    
   }
 
   @media screen and (min-width:768px){
@@ -51,8 +50,7 @@
   }
 
 @media screen and (min-width:1200px){
-  width: 270px;
-  height: 428px;
+  justify-content: space-between;
 }
 
 }
