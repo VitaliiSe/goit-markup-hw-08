@@ -5,21 +5,16 @@
     }
   
   .section-post__list{
-    // display: flex;
-    // gap: 30px;
-
-    @media screen and (min-width:480px){
-    
-    }
   
-  @media screen and (min-width:768px){
+    @media screen and (min-width:768px){
       display: flex;
-      gap: 30px;
-  }
+      flex-wrap: wrap;
+      margin:-15px;
+    }
   
   @media screen and (min-width:1200px){
       display: flex;
-      gap: 30px;
+      margin:-15px;
   }
 
   }
@@ -29,21 +24,14 @@
     text-align: left;
     @extend %list;
 
-    @media screen and (min-width:480px){
-      width:450px;
-      height: 226px;
-      margin-bottom: 30px;
+    @media screen and (min-width:768px){
+      flex-basis:calc((100% - 2 * 30px) / 2);
+      margin:15px;
     }
   
-  @media screen and (min-width:768px){
-      width:654px;
-      height: 226px;
- 
-  }
-  
   @media screen and (min-width:1200px){
-      width:270px;
-      height: 251px; 
+    flex-basis:calc((100% - 8 * 15px) / 4);
+    margin:15px;
   }
 
   }
@@ -59,23 +47,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
-    @media screen and (min-width:480px){
-      width:450px;
-      height: 120px;
-    }
-  
-  @media screen and (min-width:768px){
-      width:354px;
-      height: 120px;
- 
-  }
-  
-  @media screen and (min-width:1200px){
-      width:270px;
-      height: 120px; 
-  }
   }
   
   .section-post__icon{
@@ -92,18 +63,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-text-color;
-
-@media screen and (min-width:480px){
-  text-align: center;
-  }
-
-@media screen and (min-width:768px){
-  text-align: left;
-}
-
-@media screen and (min-width:1200px){
-  text-align: left;
-}
   }
   
   .section-post__text{
