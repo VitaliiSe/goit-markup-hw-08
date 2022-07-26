@@ -39,6 +39,11 @@ body {
   margin-right: auto;
   /* outline: 1px solid black; */
 }
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 480px;
+  }
+}
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 768px;
@@ -407,7 +412,20 @@ body {
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .footer-subscribe__email {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-subscribe__email {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 767px) {
   .footer-subscribe__email {
     margin-left: auto;
     margin-right: auto;
