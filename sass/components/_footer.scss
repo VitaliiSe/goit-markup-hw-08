@@ -6,20 +6,22 @@
 
   .section-footer__box{
 
-  @media screen and (min-width:480px){
-  }
-
-  @media screen and (min-width:768px){
-
-  }
-
   @media screen and (min-width:1200px){
     display: flex;
   }
-
-
   }
   
+.section-footer__conteiner{
+  @media screen and (min-width:480px){
+    display: block;
+  }
+
+  @media screen and (min-width:768px){
+    display: flex;
+    justify-content: space-around;
+  }
+  
+}
 
   /*____________________________*/
   .footer-aside{
@@ -125,7 +127,7 @@
     
   
   @media screen and (min-width:768px){
-      
+    text-align: center;
     }
   
   @media screen and (min-width:1200px){
@@ -233,7 +235,7 @@
   
 
 @media screen and (min-width:768px){
-    
+  text-align: center;
   }
 
 @media screen and (min-width:1200px){
@@ -250,7 +252,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: $background-email;
-    margin-right: 8px;
+    // margin-right: 8px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
@@ -275,7 +277,9 @@
     }
   
   @media screen and (min-width:1200px){
-    display: block;;
+    display: inline-block;
+    width:356px;
+    margin-right:10px;
   }
 
   }
@@ -293,13 +297,17 @@
     cursor: pointer;
     margin: 0;
 
+    
+  @media screen and (min-width:480px){
     display:flex;
     margin-left: auto;
     margin-right: auto;
-    
-  
+    }
+
   @media screen and (min-width:768px){
-    
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
     }
   
   @media screen and (min-width:1200px){
