@@ -1004,7 +1004,7 @@ body {
   .examples-conteiner {
     display: flex;
     flex-wrap: wrap;
-    margin: -31px;
+    margin: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1042,6 +1042,7 @@ body {
 
 .examples-conteiner__picture {
   display: block;
+  width: 100%;
 }
 
 .examples-conteiner__overlay {
