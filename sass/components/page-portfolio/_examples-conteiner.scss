@@ -1,9 +1,20 @@
 /* examples-conteiner */
 .examples-conteiner{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     @extend %list;
+
+    @media screen and (min-width:768px){
+      display: flex;
+      flex-wrap: wrap;
+      margin:-31px;
+    
+    }
+
+
+    @media screen and (min-width:1200px){
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
   }
   
   .examples-conteiner__border{
@@ -20,6 +31,13 @@
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
       0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+
+
+  @media screen and (max-width:1119px){
+    flex-basis: calc((100% - 60px)/2);
+    margin: 15px;
+  }
+
 }         
         
    

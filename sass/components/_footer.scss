@@ -239,7 +239,7 @@
   }
 
 @media screen and (min-width:1200px){
- 
+  text-align: left;
 }  
   
   }
@@ -297,6 +297,11 @@
     cursor: pointer;
     margin: 0;
 
+    @media screen and (max-width:479px){
+      display:flex;
+      margin-left: auto;
+      margin-right: auto;
+      }
     
   @media screen and (min-width:480px){
     display:flex;

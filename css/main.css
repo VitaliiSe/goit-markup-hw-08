@@ -427,6 +427,12 @@ body {
     text-align: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-subscribe__title {
+    text-align: left;
+  }
+}
+
 .footer-subscribe__email {
   display: block;
   height: 50px;
@@ -479,6 +485,13 @@ body {
   border: none;
   cursor: pointer;
   margin: 0;
+}
+@media screen and (max-width: 479px) {
+  .footer-subscribe__button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media screen and (min-width: 480px) {
   .footer-subscribe__button {
@@ -922,14 +935,39 @@ body {
   padding-bottom: 94px;
 }
 
-.button-conteiner {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+@media screen and (min-width: 480px) {
+  .button-conteiner {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-conteiner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-conteiner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
 }
 
-.button-conteiner__item + .button-conteiner__item {
-  margin-left: 8px;
+@media screen and (min-width: 768px) {
+  .button-conteiner__item + .button-conteiner__item {
+    margin-left: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-conteiner__item + .button-conteiner__item {
+    margin-left: 8px;
+  }
 }
 
 .button-conteiner__bar {
@@ -954,12 +992,27 @@ body {
   color: #F5F4FA;
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 767px) {
+  .button-conteiner__bar {
+    flex-basis: calc((100% - 48px) / 3);
+    margin: 8px;
+  }
+}
 
 /* examples-conteiner */
-.examples-conteiner {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+@media screen and (min-width: 768px) {
+  .examples-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -31px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .examples-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .examples-conteiner__border {
@@ -974,6 +1027,12 @@ body {
 }
 .examples-conteiner__border:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+@media screen and (max-width: 1119px) {
+  .examples-conteiner__border {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
 }
 
 .examples-conteiner__img {
