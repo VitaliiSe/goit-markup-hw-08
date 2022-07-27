@@ -11,7 +11,7 @@
     overflow-y: scroll;
     
    @media screen and (max-width:767px){
-   padding: 30px 30px;
+   padding: 93px 15px;
   }
 
  
@@ -42,6 +42,7 @@
     background-color: $white-color;
     margin: 0;
     padding: 0;
+    padding-top: 1px;
   }
 
   @media screen and (min-width:480px){
@@ -361,7 +362,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 
   @media screen and (max-width:479px){
-    margin-left: auto;
+    margin-left:89%;
    } 
  
 

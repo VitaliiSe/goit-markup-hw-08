@@ -1197,7 +1197,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .backdrop {
-    padding: 30px 30px;
+    padding: 93px 15px;
   }
 }
 
@@ -1214,6 +1214,7 @@ body {
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    padding-top: 1px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1507,7 +1508,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .close {
-    margin-left: auto;
+    margin-left: 89%;
   }
 }
 @media screen and (min-width: 480px) {
