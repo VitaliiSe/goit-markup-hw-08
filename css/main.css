@@ -582,14 +582,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .conteiner-fon {
-    height: 400px;
+    background-size: 480px 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner-fon {
+    background-size: 768px 400px;
   }
 }
 @media screen and (min-width: 1200px) {
   .conteiner-fon {
-    height: 600px;
+    background-size: 1600px 600px;
   }
 }
 
@@ -724,6 +729,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+}
+@media screen and (max-width: 479px) {
+  .section-post__title {
+    text-align: center;
+  }
 }
 
 .section-post__text {

@@ -63,6 +63,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-text-color;
+
+  @media screen and (max-width:479px){
+   text-align: center;
+  }
   }
   
   .section-post__text{
