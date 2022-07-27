@@ -573,7 +573,6 @@ body {
 
 .conteiner-fon {
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 1px solid black; */
@@ -582,11 +581,31 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 1199px) {
+  .conteiner-fon {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner-fon {
+    height: 600px;
+  }
+}
 
 .section-hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+}
+@media screen and (max-width: 1199px) {
+  .section-hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .section-hero__caption {

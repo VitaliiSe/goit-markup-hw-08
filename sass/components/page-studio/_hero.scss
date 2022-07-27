@@ -1,6 +1,6 @@
 .conteiner-fon{
     max-width: 1600px;
-    height: 600px;
+    // height: 600px;
     margin-left: auto;
     margin-right: auto;
     /* outline: 1px solid black; */
@@ -15,12 +15,32 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
+
+  @media screen and (max-width:1199px){
+    height: 400px;
+  }
+
+  @media screen and (min-width:1200px){
+    height: 600px;
+  }
   }
   
   .section-hero{
     text-align: center;
-    padding-top: 200px;
+    // padding-top: 200px;
+    // padding-bottom: 200px; 
+
+    @media screen and (max-width:1199px){
+      padding-top: 118px;
+      padding-bottom: 118px; 
+    }
+  
+    @media screen and (min-width:1200px){
+      padding-top: 200px;
     padding-bottom: 200px; 
+    }
   }
   
   .section-hero__caption{
