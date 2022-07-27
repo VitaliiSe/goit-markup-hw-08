@@ -360,10 +360,15 @@
     // margin-left: 490px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 
-    
- @media screen and (max-width:767px){
-  margin-left: 412px; 
-  }
+  @media screen and (max-width:479px){
+    margin-left: auto;
+   } 
+ 
+
+ @media screen and (min-width:480px){
+  margin-left: 412px;
+  } 
+
 
   @media screen and (min-width:768px){
     margin-left: 412px;
