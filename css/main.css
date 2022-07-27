@@ -1425,7 +1425,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .checkbox-input-text {
-    margin-left: 36px;
     font-size: 14px;
   }
 }
