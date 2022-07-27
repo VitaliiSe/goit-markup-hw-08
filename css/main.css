@@ -572,6 +572,8 @@ body {
 }
 
 .conteiner-fon {
+  max-width: 1600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 1px solid black; */
@@ -600,19 +602,22 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .section-hero__caption {
-    width: 360px;
+    width: auto;
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 768px) {
   .section-hero__caption {
     width: 360px;
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section-hero__caption {
     width: 696px;
+    font-size: 44px;
   }
 }
 

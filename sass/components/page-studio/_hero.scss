@@ -1,4 +1,6 @@
 .conteiner-fon{
+    max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     /* outline: 1px solid black; */
@@ -35,17 +37,19 @@
   text-transform: uppercase;
   color:$white-color;
 
-  @media screen and (min-width:480px){
-    width:360px;
-    
+@media screen and (max-width:767px){
+    width:auto;
+    font-size: 26px;
 }
 
 @media screen and (min-width:768px){
   width:360px;
+  font-size: 26px;
 }
 
 @media screen and (min-width:1200px){
-  width:696px;
+  width: 696px;
+  font-size: 44px;
 }
   }
   
