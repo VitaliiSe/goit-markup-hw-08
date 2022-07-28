@@ -33,8 +33,12 @@
     text-align: center;
     // padding-top: 200px;
     // padding-bottom: 200px; 
+    @media screen and (max-width:387px){
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
 
-    @media screen and (max-width:1199px){
+    @media screen and (min-width:388px){
       padding-top: 118px;
       padding-bottom: 118px;
     }

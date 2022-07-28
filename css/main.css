@@ -113,15 +113,19 @@ body {
   color: #2196F3;
 }
 
-.site-nav {
-  margin-left: 93px;
-  display: none;
+@media screen and (max-width: 767px) {
+  .site-nav {
+    display: block;
+    align-items: center;
+    margin-bottom: 302px;
+  }
 }
 @media screen and (min-width: 768px) {
   .site-nav {
     display: block;
     display: flex;
     align-items: center;
+    margin-left: 93px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -129,6 +133,7 @@ body {
     display: block;
     display: flex;
     align-items: center;
+    margin-left: 93px;
   }
 }
 
@@ -148,12 +153,19 @@ body {
 .site-nav_link:hover, .site-nav_link:focus {
   color: #2196F3;
 }
+@media screen and (max-width: 767px) {
+  .site-nav_link {
+    font-size: 40px;
+  }
+}
 
 .site-nav_item {
   position: relative;
 }
-.site-nav_item + .site-nav_item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .site-nav_item + .site-nav_item {
+    margin-left: 50px;
+  }
 }
 
 .current:after {
@@ -167,16 +179,26 @@ body {
   bottom: 0;
   left: 0;
 }
+@media screen and (max-width: 767px) {
+  .current:after {
+    display: none;
+  }
+}
 
-.list-contacts {
-  margin-left: auto;
-  display: none;
+@media screen and (max-width: 767px) {
+  .list-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .list-contacts {
     display: flex;
     flex-flow: column;
     gap: 10px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -214,6 +236,37 @@ body {
 .list-contacts__register:hover, .list-contacts__register:focus {
   color: #2196F3;
 }
+@media screen and (max-width: 767px) {
+  .list-contacts__register {
+    font-size: 24px;
+  }
+}
+
+.list-contacts__phone {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .list-contacts__phone {
+    justify-content: center;
+  }
+}
+.list-contacts__phone:hover, .list-contacts__phone:focus {
+  color: #2196F3;
+}
+@media screen and (max-width: 767px) {
+  .list-contacts__phone {
+    font-size: 34px;
+  }
+}
 
 .list-contacts__mail {
   width: 16px;
@@ -228,6 +281,11 @@ body {
 .list-contacts__item:hover .list-contacts__mail, .list-contacts__item:focus .list-contacts__mail {
   fill: #2196F3;
 }
+@media screen and (max-width: 767px) {
+  .list-contacts__mail {
+    display: none;
+  }
+}
 
 .list-contacts__tell {
   width: 10px;
@@ -241,6 +299,11 @@ body {
 }
 .list-contacts__item:hover .list-contacts__tell, .list-contacts__item:focus .list-contacts__tell {
   fill: #2196F3;
+}
+@media screen and (max-width: 767px) {
+  .list-contacts__tell {
+    display: none;
+  }
 }
 
 .section-footer {
@@ -609,7 +672,13 @@ body {
 .section-hero {
   text-align: center;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 387px) {
+  .section-hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+}
+@media screen and (min-width: 388px) {
   .section-hero {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -1629,17 +1698,31 @@ body {
   display: none;
 }
 
-.mobile-menu {
-  display: none;
-  padding: 40px;
-  background-color: aqua;
-  text-align: center;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 796px;
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    display: none;
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 796px;
+  }
+  .mobile-menu.is-open {
+    display: block;
+  }
 }
-.mobile-menu.is-open {
-  display: block;
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */
