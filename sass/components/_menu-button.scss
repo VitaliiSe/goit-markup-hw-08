@@ -1,3 +1,7 @@
+.menu-conteiner{
+    display: flex;
+}
+
 .menu-button{
     display: inline-flex;
     margin: 0;
@@ -6,14 +10,32 @@
     // background-color: transparent;
 }
 
-.menu-button .icon-close{
+.menu-button .icon-close {
     display: none;
 }
 
-.menu-button .icon-close{
+.menu-button.is-open .icon-close {
     display: block;
 }
 
-.menu-button .icon-menu{
-    display: block;
+.menu-button.is-open .icon-menu {
+    display: none;
 }
+
+.mobile-menu{
+    display: none;
+    padding:40px;
+    background-color: aqua;
+    text-align: center;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 796px;
+
+    &.is-open{
+        display: block;
+    }
+}
+
