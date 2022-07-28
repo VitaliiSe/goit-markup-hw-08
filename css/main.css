@@ -1588,4 +1588,23 @@ body {
 }
 .box_button:hover .box_icon, .box_button:focus .box_icon {
   fill: #FFFFFF;
+}
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.menu-button .icon-close {
+  display: none;
+}
+
+.menu-button .is-open .icon-close {
+  display: block;
+}
+
+.menu-button .is-open .icon-menu {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
