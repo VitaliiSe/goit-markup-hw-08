@@ -88,6 +88,13 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 767px) {
+  .page-header_conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 @media screen and (min-width: 768px) {
   .page-header_conteiner {
     display: flex;
@@ -1591,8 +1598,15 @@ body {
   fill: #FFFFFF;
 }
 
-.menu-conteiner {
-  display: flex;
+@media screen and (max-width: 767px) {
+  .menu-conteiner {
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-conteiner {
+    display: none;
+  }
 }
 
 .menu-button {
@@ -1600,6 +1614,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
+  background-color: transparent;
 }
 
 .menu-button .icon-close {
