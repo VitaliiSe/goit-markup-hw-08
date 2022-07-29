@@ -353,12 +353,14 @@ body {
 .footer_logo {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 767px) {
   .footer_logo {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   .footer-items__item {
     margin-left: auto;
@@ -660,21 +662,6 @@ body {
     background-image: linear-gradient(to right, rgba(85, 62, 62, 0.5), rgba(49, 40, 49, 0.5), rgba(55, 61, 55, 0.5)), url(../img/Fon@2x.jpg);
   }
 }
-@media screen and (max-width: 767px) {
-  .conteiner-fon {
-    background-size: 480px 400px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .conteiner-fon {
-    background-size: 768px 400px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .conteiner-fon {
-    background-size: 1600px 600px;
-  }
-}
 
 .section-hero {
   text-align: center;
@@ -797,6 +784,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 120px;
 }
 
 .section-post__icon {
@@ -994,6 +982,7 @@ body {
   align-items: center;
   cursor: pointer;
   justify-content: center;
+  height: 92px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-clients__subtitle:hover, .section-clients__subtitle:focus {
@@ -1128,6 +1117,11 @@ body {
   .button-conteiner__bar {
     flex-basis: calc((100% - 48px) / 3);
     margin: 8px;
+    padding: 6px 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-conteiner__bar {
     padding: 6px 22px;
   }
 }
