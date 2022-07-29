@@ -1736,6 +1736,7 @@ body {
     align-items: center;
     width: auto;
     list-style: none;
+    gap: 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1752,5 +1753,5 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  border: 1px solid black;
+  color: black;
 }/*# sourceMappingURL=main.css.map */

@@ -67,6 +67,7 @@
         align-items: center;
         width: auto;
         list-style: none; 
+        gap:20px
     }
     
     @media screen and (min-width:768px){
@@ -76,15 +77,13 @@
 
 .social-network__item{
         display: block;
-        // margin-right: 15px;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-decoration:none;
-        border: 1px solid black;
-    
+        color: black;
 }
 
     
