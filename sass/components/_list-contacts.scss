@@ -13,7 +13,7 @@
       display: flex;
       flex-flow: column;
       gap: 10px;
-      margin-left: auto;
+      margin-left:84px;
 
      }
   
@@ -21,7 +21,8 @@
       display: flex;
       flex-direction: revert;
       align-items: center;
-      margin-left: auto;
+      // margin-left: auto;
+      margin-left: 200px;
 
      }
 
@@ -63,6 +64,7 @@
 
     @media screen and (max-width:767px){
       font-size: 24px;
+      margin-bottom: 64px;
     }
 
     }
