@@ -30,5 +30,8 @@ html{
     font-family: 'Roboto', sans-serif;
     background-color: $white-color;
   }
+
+  body.modal-open{
+    overflow: hidden;
+  }
   
- 
