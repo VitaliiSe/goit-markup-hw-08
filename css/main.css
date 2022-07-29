@@ -1734,9 +1734,9 @@ body {
   .social-network {
     display: inline-flex;
     align-items: center;
+    flex-wrap: wrap;
     width: auto;
     list-style: none;
-    gap: 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1746,6 +1746,19 @@ body {
 }
 
 .social-network__item {
+  border-right: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.social-network__item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.social-network__item:first-child {
+  padding-left: 0;
+}
+
+.social-network__text {
   display: block;
   font-style: normal;
   font-weight: 500;
