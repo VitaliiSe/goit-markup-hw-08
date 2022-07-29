@@ -655,6 +655,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (min-device-pixel-ratio), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .conteiner-fon {
+    background-image: linear-gradient(to right, rgba(85, 62, 62, 0.5), rgba(49, 40, 49, 0.5), rgba(55, 61, 55, 0.5)), url(../img/Fon@2x.jpg);
+  }
+}
 @media screen and (max-width: 767px) {
   .conteiner-fon {
     background-size: 480px 400px;
