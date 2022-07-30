@@ -2,6 +2,11 @@
     text-align: center;
     padding-bottom: 94px;
     padding-top: 94px;
+
+    @media screen and (max-width:767px){
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
     }
   
   .section-post__list{
@@ -23,6 +28,11 @@
     // width: 370px;
     text-align: left;
     @extend %list;
+    margin-bottom: 30px;
+
+    &:last-child{
+      margin-bottom: 0px;
+    }
 
     @media screen and (min-width:768px){
       flex-basis:calc((100% - 2 * 30px) / 2);
@@ -65,9 +75,10 @@
   text-transform: uppercase;
   color: $primary-text-color;
 
-  @media screen and (max-width:479px){
+  @media screen and (max-width:767px){
    text-align: center;
   }
+
   }
   
   .section-post__text{

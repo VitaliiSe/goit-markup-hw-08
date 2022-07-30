@@ -1,6 +1,11 @@
 .section-clients{
   padding-top: 94px;
   padding-bottom: 113px;
+
+  @media screen and (max-width:767px){
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
   }
 
   .section-clients__caption{
@@ -12,6 +17,10 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-bottom: 50px;
+
+  @media screen and (max-width:767px){
+    font-size: 28px;
+  }
   }
   
   

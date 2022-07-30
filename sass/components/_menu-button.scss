@@ -50,10 +50,7 @@
     right: 15px;
     color: #fff;
 
-&:hover,
-&:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
+
 
     @media screen and (min-width:768px){
         display: none;
@@ -61,7 +58,12 @@
     }
 }
 
-
+.icon-menu{
+    &:hover,
+    &:focus {
+      fill:$overlay-color;
+    }
+}
 
 .mobile-menu{
     
@@ -140,7 +142,7 @@
     letter-spacing: 0.02em;
     text-decoration:none;
     color: black;
-    
+
     &:hover,
     &:focus{
         color: $overlay-color;
