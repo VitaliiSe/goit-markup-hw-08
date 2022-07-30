@@ -104,12 +104,14 @@ body.modal-open {
   .page-header_conteiner {
     display: flex;
     align-items: center;
+    height: 80px;
   }
 }
 @media screen and (min-width: 1200px) {
   .page-header_conteiner {
     display: flex;
     align-items: center;
+    height: 80px;
   }
 }
 
@@ -118,7 +120,13 @@ body.modal-open {
   color: #2196F3;
 }
 
-@media screen and (max-width: 767px) {
+.site-nav {
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+@media screen and (min-width: 460px) {
   .site-nav {
     display: flex;
     flex-direction: column;
@@ -145,7 +153,6 @@ body.modal-open {
 
 .site-nav_link {
   display: block;
-  padding-top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -253,7 +260,6 @@ body.modal-open {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
   align-items: center;
@@ -1350,7 +1356,10 @@ body.modal-open {
 }
 @media screen and (max-width: 767px) {
   .backdrop {
-    padding: 93px 15px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -1800,7 +1809,7 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .mobile-menu {
-    padding: 48px 83px 48px 40px;
+    padding: 48px 5px 48px 40px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
     position: fixed;
@@ -1833,7 +1842,6 @@ body.modal-open {
   .social-network {
     display: inline-flex;
     align-items: center;
-    flex-wrap: wrap;
     width: auto;
     list-style: none;
   }
