@@ -97,6 +97,7 @@ body.modal-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -119,9 +120,10 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .site-nav {
-    display: block;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 302px;
+    gap: 32px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -129,7 +131,7 @@ body.modal-open {
     display: block;
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    margin-left: 69px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -144,7 +146,6 @@ body.modal-open {
 .site-nav_link {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -194,7 +195,7 @@ body.modal-open {
   .list-contacts {
     display: flex;
     flex-direction: column-reverse;
-    margin-left: auto;
+    margin-bottom: 64px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -243,7 +244,6 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .list-contacts__register {
     font-size: 24px;
-    margin-bottom: 64px;
   }
 }
 
@@ -332,13 +332,33 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .section-footer__conteiner {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-footer__conteiner {
+    display: flex;
     justify-content: space-around;
   }
 }
 
 /*____________________________*/
-.footer-aside {
-  display: block;
+@media screen and (max-width: 767px) {
+  .footer-aside {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-aside {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-aside {
+    display: block;
+    text-align: left;
+  }
 }
 
 .box {
@@ -900,7 +920,7 @@ body.modal-open {
   margin-right: auto;
   background-color: #F5F4FA;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-team {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -917,7 +937,7 @@ body.modal-open {
   letter-spacing: 0.03em;
   color: #212121;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-team__caption {
     font-size: 28px;
   }
@@ -992,14 +1012,16 @@ body.modal-open {
   color: #757575;
 }
 
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 113px;
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-clients {
     padding-bottom: 60px;
     padding-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-clients {
+    padding-top: 94px;
+    padding-bottom: 113px;
   }
 }
 
@@ -1013,7 +1035,7 @@ body.modal-open {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-clients__caption {
     font-size: 28px;
   }
@@ -1843,7 +1865,7 @@ body.modal-open {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: black;
+  color: #2196F3;
 }
 .social-network__text:hover, .social-network__text:focus {
   color: rgba(33, 150, 243, 0.9);
