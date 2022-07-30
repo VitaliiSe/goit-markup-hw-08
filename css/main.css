@@ -943,6 +943,15 @@ body.modal-open {
   border-radius: 0px 0px 4px 4px;
   background: #FFFFFF;
 }
+@media screen and (max-width: 767px) {
+  .section-team__subtitle {
+    height: 622px;
+    margin-bottom: 30px;
+  }
+  .section-team__subtitle:last-child {
+    margin-bottom: 0px;
+  }
+}
 @media screen and (min-width: 768px) {
   .section-team__subtitle {
     flex-basis: calc((100% - 60px) / 2);
