@@ -9,7 +9,6 @@
 }
 
 .menu-button{
-
     min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -50,14 +49,18 @@
     top: 20px;
     right: 15px;
     color: #fff;
+
+    @media screen and (min-width:768px){
+        display: none;
+        
+    }
 }
 
 
 
 .mobile-menu{
     
-    @media screen and (max-width:767px){
-    display: none;
+@media screen and (max-width:767px){
     padding: 48px 83px 48px 40px;
   
     background: #FFFFFF;
@@ -69,12 +72,15 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-
+    transform: translateX(100%);
+    
+    transition: transform 250ms ease-in-out;
     &.is-open{
-        display: block;
-    }
+        transform: translateX(0);
+}
 
-    }
+}
+
     @media screen and (min-width:768px){
         display: flex;
         align-items: center;
