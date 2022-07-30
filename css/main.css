@@ -1721,6 +1721,9 @@ body.modal-open {
   right: 15px;
   color: #fff;
 }
+.overlay-button:hover, .overlay-button:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 @media screen and (min-width: 768px) {
   .overlay-button {
     display: none;
@@ -1795,4 +1798,7 @@ body.modal-open {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: black;
+}
+.social-network__text:hover, .social-network__text:focus {
+  color: rgba(33, 150, 243, 0.9);
 }/*# sourceMappingURL=main.css.map */
