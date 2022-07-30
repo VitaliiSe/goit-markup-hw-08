@@ -1074,9 +1074,9 @@ body.modal-open {
   fill: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .section-examples {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
@@ -1096,7 +1096,7 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .button-conteiner {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
   }
 }
@@ -1104,7 +1104,7 @@ body.modal-open {
   .button-conteiner {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
   }
 }
@@ -1221,7 +1221,7 @@ body.modal-open {
 }
 @media screen and (max-width: 767px) {
   .examples-conteiner__img {
-    height: 294px;
+    height: auto;
     width: 450px;
   }
 }
@@ -1241,6 +1241,11 @@ body.modal-open {
 .examples-conteiner__picture {
   display: block;
   width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .examples-conteiner__picture {
+    height: 294px;
+  }
 }
 
 .examples-conteiner__overlay {
