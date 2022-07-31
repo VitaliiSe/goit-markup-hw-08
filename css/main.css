@@ -120,17 +120,11 @@ body.modal-open {
   color: #2196F3;
 }
 
-.site-nav {
-  margin-bottom: 180px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-@media screen and (min-width: 460px) {
+@media screen and (max-width: 767px) {
   .site-nav {
     display: flex;
     flex-direction: column;
-    margin-bottom: 302px;
+    margin-bottom: 180px;
     gap: 32px;
   }
 }
