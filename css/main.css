@@ -122,12 +122,12 @@ body.modal-open {
 
 @media screen and (min-height: 396px) {
   .site-nav {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 }
 @media screen and (min-height: 496px) {
   .site-nav {
-    margin-bottom: 100px;
+    margin-bottom: 115px;
   }
 }
 @media screen and (min-height: 596px) {
@@ -136,11 +136,6 @@ body.modal-open {
   }
 }
 @media screen and (min-height: 696px) {
-  .site-nav {
-    margin-bottom: 250px;
-  }
-}
-@media screen and (min-width: 766px) {
   .site-nav {
     margin-bottom: 302px;
   }
@@ -181,14 +176,17 @@ body.modal-open {
   .site-nav_link {
     font-size: 40px;
   }
-  .site-nav_link .site-nav_link--activ {
-    color: #2196F3;
-  }
 }
 @media screen and (min-width: 768px) {
   .site-nav_link {
     padding-bottom: 32px;
     padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-nav_link--activ {
+    color: #2196F3;
   }
 }
 
