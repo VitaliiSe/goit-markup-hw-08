@@ -107,9 +107,13 @@
         width: auto;
         list-style: none; 
         // gap:20px;
- 
     }
     
+    @media screen and (max-width:370px){
+        flex-wrap: wrap;
+    }
+ 
+
     @media screen and (min-width:768px){
         display: none;
     } 
@@ -129,7 +133,12 @@
             padding-left: 0;
         }
 
-     
+        @media screen and (max-width:296px){
+            &:nth-child(3){
+                padding-left: 0;
+            }  
+        }
+       
 }
 
 .social-network__text{
