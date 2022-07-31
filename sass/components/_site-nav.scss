@@ -6,11 +6,30 @@
     // display: flex;
     // flex-direction: column;
     // gap: 32px;
+
+
+    @media screen and (min-height:496px){
+      margin-bottom:100px;
+     
+  }
+ @media screen and (min-height:596px){
+      margin-bottom:150px;
+     
+  }
+@media screen and (min-height:696px){
+      margin-bottom:250px;
+     
+  }
+
+    @media screen and (min-height:796px){
+      margin-bottom: 302px;
+     
+  }
     
     @media screen and (max-width:767px){
       display: flex;
       flex-direction: column;
-      margin-bottom: 180px;
+      // margin-bottom: 180px;
       gap: 32px;
   }
 
