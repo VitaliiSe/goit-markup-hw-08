@@ -217,7 +217,7 @@ body.modal-open {
     display: flex;
     flex-direction: revert;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 285px;
   }
 }
 
@@ -970,7 +970,7 @@ body.modal-open {
 }
 @media screen and (max-width: 767px) {
   .section-team__subtitle {
-    height: 622px;
+    max-height: 622px;
     margin-bottom: 30px;
   }
   .section-team__subtitle:last-child {
@@ -1228,7 +1228,7 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .examples-conteiner__border {
     height: 404px;
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1258,7 +1258,7 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .examples-conteiner__img {
     height: auto;
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
