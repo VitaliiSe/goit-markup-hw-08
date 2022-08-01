@@ -1,32 +1,7 @@
 .site-nav{
     
 @extend %list;
-    // display: none;
-    // margin-bottom: 180px;
-    // display: flex;
-    // flex-direction: column;
-    // gap: 32px;
 
-//     @media screen and (min-height:396px){
-//       margin-bottom: 90px;
-     
-//   }
-
-//   @media screen and (min-height:496px){
-//       margin-bottom: 115px;
-     
-//   }
-  
-//   @media screen and (min-height:596px){
-//       margin-bottom: 150px;
-     
-//   }
-
-
-//   @media screen and (min-height:696px){
-//     margin-bottom: 302px;
-   
-// }
 
 
 @media screen and (min-width:768px){
@@ -86,11 +61,10 @@
    
 .site-nav_item{
       position: relative;
-
-      // & + &{
-      //   margin-left: 50px;
-      // }
-
+      @media screen and (max-width:767px){
+        margin-bottom: 37px;
+    }
+     
       @media screen and (min-width:768px){
         & + &{
           margin-left: 50px;
