@@ -120,26 +120,6 @@ body.modal-open {
   color: #2196F3;
 }
 
-@media screen and (min-height: 396px) {
-  .site-nav {
-    margin-bottom: 90px;
-  }
-}
-@media screen and (min-height: 496px) {
-  .site-nav {
-    margin-bottom: 115px;
-  }
-}
-@media screen and (min-height: 596px) {
-  .site-nav {
-    margin-bottom: 150px;
-  }
-}
-@media screen and (min-height: 696px) {
-  .site-nav {
-    margin-bottom: 302px;
-  }
-}
 @media screen and (min-width: 768px) {
   .site-nav {
     display: block;
@@ -1842,6 +1822,9 @@ body.modal-open {
     width: 100vw;
     height: 100vh;
     transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition: transform 250ms ease-in-out;
   }
   .mobile-menu.is-open {
