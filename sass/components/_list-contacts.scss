@@ -94,13 +94,14 @@
   
      @media screen and (min-width:1200px){
       justify-content: center;
+    
      }
 
    
-
     @media screen and (max-width:767px){
       font-size: 34px;
       margin-bottom: 32px;
+      color: $accent-color;
     }
     }
 

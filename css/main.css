@@ -283,6 +283,7 @@ body.modal-open {
   .list-contacts__phone {
     font-size: 34px;
     margin-bottom: 32px;
+    color: #2196F3;
   }
 }
 
