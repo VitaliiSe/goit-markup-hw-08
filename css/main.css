@@ -372,10 +372,6 @@ body.modal-open {
   }
 }
 
-.box {
-  margin-bottom: 20px;
-}
-
 /* Modifiers logo*/
 .web--color {
   color: #2196F3;
@@ -459,7 +455,6 @@ body.modal-open {
   list-style: none;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
   justify-content: space-between;
 }
 
@@ -975,12 +970,12 @@ body.modal-open {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #FFFFFF;
+  padding-bottom: 24px;
 }
 @media screen and (max-width: 767px) {
   .section-team__subtitle {
     max-height: 622px;
     margin-bottom: 30px;
-    padding-bottom: 1px;
   }
   .section-team__subtitle:last-child {
     margin-bottom: 0px;
