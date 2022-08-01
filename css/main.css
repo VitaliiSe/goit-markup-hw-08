@@ -344,7 +344,7 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .section-footer__conteiner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1248,9 +1248,6 @@ body.modal-open {
     height: 440px;
     width: 354px;
   }
-  .examples-conteiner__border:nth-child(n+7) {
-    margin-bottom: 0px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .examples-conteiner__border {
@@ -1258,6 +1255,9 @@ body.modal-open {
     margin: 15px;
     width: 370px;
     height: 404px;
+  }
+  .examples-conteiner__border:nth-child(n+7) {
+    margin-bottom: 0px;
   }
 }
 
