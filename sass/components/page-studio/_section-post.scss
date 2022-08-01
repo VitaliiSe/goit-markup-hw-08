@@ -1,7 +1,7 @@
 .section-post{
     text-align: center;
-    padding-bottom: 94px;
-    padding-top: 94px;
+    // padding-bottom: 94px;
+    // padding-top: 94px;
 
     @media screen and (max-width:767px){
       padding-bottom: 60px;
@@ -15,11 +15,15 @@
       display: flex;
       flex-wrap: wrap;
       margin:-15px;
+      padding-bottom: 60px;
+      padding-top: 60px;
     }
   
   @media screen and (min-width:1200px){
       display: flex;
       margin:-15px;
+      padding-bottom: 94px;
+      padding-top: 94px;
   }
 
   }
