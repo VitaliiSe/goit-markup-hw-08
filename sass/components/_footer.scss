@@ -124,6 +124,13 @@
   
   .footer-networks__holder{
     display: block;
+
+    @media screen and (max-width:767px){
+     margin-bottom: 70px;
+    }
+    
+    
+
   }
 
   .footer-networks__title{
@@ -392,6 +399,7 @@
  @media screen and (max-width:767px){
       flex-direction: column;
       display: flex;
+      margin-bottom: 60px;
     }
     
   

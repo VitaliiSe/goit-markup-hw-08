@@ -421,6 +421,11 @@ body.modal-open {
 .footer-networks__holder {
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .footer-networks__holder {
+    margin-bottom: 70px;
+  }
+}
 
 .footer-networks__title {
   font-style: normal;
@@ -661,6 +666,7 @@ body.modal-open {
   .footer-items {
     flex-direction: column;
     display: flex;
+    margin-bottom: 60px;
   }
 }
 .footer-items__contact {
